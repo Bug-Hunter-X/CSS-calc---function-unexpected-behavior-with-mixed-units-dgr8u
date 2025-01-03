@@ -1,0 +1,13 @@
+/* bugSolution.css */
+
+.container {
+  width: 500px;
+}
+
+.element {
+  width: calc( (50% - 10px) ); /*Adding parentheses to enforce calculation order*/
+  background-color: lightblue; 
+  height: 50px;
+}
+
+/* Ensure that the parent element has a defined width for the percentage calculation to work as expected. */
